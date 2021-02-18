@@ -12,8 +12,8 @@ public class HelloWorldController
     public String helloWorld(){
         return "Ahoj Svet";
     }
-    @GetMapping( path = "/hi-world")
+    @GetMapping( path = "/www/app/model")
     public String helloWorld(){
-        return "hiiiiiiiiii worldik";
+        return "zmena ktora sa ziada";
     }
 }
