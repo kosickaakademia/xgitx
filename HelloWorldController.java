@@ -10,6 +10,10 @@ public class HelloWorldController
 {
     @GetMapping( path = "/wwww/app/views")
     public String helloWorld(){
-        return "hello World";
+        return "Ahoj Svet";
+    }
+    @GetMapping( path = "/www/app/model")
+    public String helloWorld(){
+        return "zmena ktora sa ziada";
     }
 }
